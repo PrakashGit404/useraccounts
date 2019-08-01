@@ -1,0 +1,5 @@
+CREATE DATABASE useraccounts;
+
+use useraccounts;
+
+create table users (personid int(50) not null auto_increment primary key,firstname varchar(35),lastname varchar(50),email varchar(50),phonenumber varchar(50),password varchar(50));
